@@ -62,8 +62,8 @@ nav a {
     font-size: 24px;
 }
 .hero-button {
-    background-color: #20361b;
-    color: white;
+    background-color: #8e9ec9;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px 16px;
     border-radius: 6px;
@@ -73,11 +73,34 @@ nav a {
 }
 .hero-button:hover {
     transform: scale(0.97);
-    background-color: #34552c;
+    background-color: rgb(126, 146, 121);
     box-shadow: 0 0 12px rgba(163, 192, 158, 0.7);
 }
 .hero-button:active {
     transform: scale(0.97);
-    background-color: #34552c;
+    background-color: rgb(126, 146, 121);
     box-shadow: 0 0 12px rgba(52, 85, 44, 0.7);
+}
+.intro {
+    padding: 2rem 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro p {
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+.intro h2 {
+    font-family: "Inspiration", cursive;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+.mid-links  {
+    background-color: rgb(126, 146, 121);
+    min-height: 200px;
 }
