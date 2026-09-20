@@ -159,6 +159,9 @@ nav a:hover {
     align-items: center;
     padding-bottom: 2rem
 }
+.visit-content {
+    text-align: center;
+}
 .visit h2 {
     padding: 1rem 1rem 0.2rem;
     font-size: 1.1rem;
@@ -281,5 +284,28 @@ nav a {
 .activity-cards {
     flex-direction: row;
     gap: 8rem;
+}
+.visit {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+.visit-content {
+    max-width: 550px;
+    margin-left: 27rem;
+}
+.visit-content h2 {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+.visit-content p {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+.visit-button {
+    margin-right: 25rem;
 }
 }
