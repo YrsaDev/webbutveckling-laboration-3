@@ -127,6 +127,12 @@ nav a:hover {
     object-fit: cover;
     display: block;
 }
+.activity-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
 .card-content {
     background-color: white;
     padding: 0.5rem 1rem 1rem;
@@ -271,5 +277,9 @@ nav a {
 }
 .hero-content p {
     max-width: 300px;
+}
+.activity-cards {
+    flex-direction: row;
+    gap: 8rem;
 }
 }
