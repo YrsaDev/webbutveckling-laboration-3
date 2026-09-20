@@ -236,3 +236,40 @@ footer {
     text-decoration: none;
     font-size: 0.9rem;
 }
+@media (min-width: 768px) {
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+.brand {
+    gap: 3rem;
+    margin-left: 20rem;
+}
+nav {
+    flex-direction: row;
+    margin-right: 20rem;
+    }
+nav ul {
+    flex-direction: row;
+    gap: 2rem;
+    }
+nav a {     
+    font-size: 1rem;
+    }
+.hero-image {
+    height: 550px;
+}  
+.hero-content {
+    top: 150px;
+    margin-left: 3rem;
+}
+.hero-content h1 {
+    font-size: 2rem;
+    max-width: 250px;
+}
+.hero-content p {
+    max-width: 300px;
+}
+}
