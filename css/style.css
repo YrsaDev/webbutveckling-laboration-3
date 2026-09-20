@@ -39,6 +39,9 @@ nav a {
     text-decoration: none;
     font-size: 30px;
 }
+nav a:hover {
+    color: rgb(25, 90, 102);
+}
 .brand {
     display: flex;
     align-items: center;
