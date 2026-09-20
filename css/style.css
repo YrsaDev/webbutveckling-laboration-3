@@ -220,9 +220,14 @@ footer {
 }
 .footer-contact {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.3rem;
+}
+.footer-contact h3,
+.footer-contact p {
+    margin: 0.3rem;
 }
 .footer-nav {
     color: white;
@@ -244,6 +249,9 @@ footer {
     color: white;
     text-decoration: none;
     font-size: 0.9rem;
+}
+.footer-nav h3 {
+    margin-bottom: 0.1rem;
 }
 @media (min-width: 768px) {
 header {
@@ -307,5 +315,44 @@ nav a {
 }
 .visit-button {
     margin-right: 25rem;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-left: 25rem;
+}
+.footer-content {
+    margin-top: 0;
+    text-align: left;
+}
+.footer-content h2 {
+    margin-top: 0.4rem;
+}
+.footer-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -2rem;
+}
+.footer-contact h3,
+.footer-contact p {
+    margin: ;
+}
+.footer-nav ul {
+    flex-direction: column;
+}
+.footer-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -0.8rem;
+    margin-right: 28rem;
+    gap: 0.5rem;
 }
 }
