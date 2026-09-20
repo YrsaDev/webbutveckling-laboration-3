@@ -46,7 +46,7 @@ nav a {
 }
 .hero-image {
     width: 100%;
-    height: 220px;
+    height: 250px;
     object-fit: cover;
 }
 .hero {
@@ -57,6 +57,7 @@ nav a {
     top: 20px;
     left: 24px;
     color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 3);
 }
 .hero-content h1 {
     font-size: 24px;
@@ -82,7 +83,7 @@ nav a {
     box-shadow: 0 0 12px rgba(52, 85, 44, 0.7);
 }
 .intro {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.5rem 2rem;
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
@@ -98,9 +99,52 @@ nav a {
 .intro h2 {
     font-family: "Inspiration", cursive;
     font-size: 2.8rem;
+    margin-top: 0;
     margin-bottom: 1rem;
 }
 .mid-links  {
     background-color: rgb(126, 146, 121);
     min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.mid-links h2 {
+    font-family: "Inter", sans-serif;
+}
+.activity-card {
+    width: 280px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.activity-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+.card-content {
+    background-color: white;
+    padding: 0.5rem 1rem 1rem;
+}
+.card-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.card-content p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-top: 0;
+}
+.activity-card:active {
+    transform: scale(0.97);
+}
+.activity-card:hover {
+    transform: scale(0.97);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
